@@ -38,3 +38,6 @@ def cnt5(n):
     return n5
 
 print(min(cnt2(n)-cnt2(m)-cnt2(n-m), cnt5(n)-cnt5(m)-cnt5(n-m)))
+
+   1 2 3 4 5 6 7 8 9 10         23 24 25 
+5          1          1                1  

@@ -19,3 +19,22 @@ for _ in range(N):
     for t in dict:
         answer *= (dict[t] + 1)
     print(answer-1)
+    
+# from collections import Counter as ct
+
+# N = int(input())
+
+# for _ in range(N):
+#   T = int(input())
+#   wear = []
+#   for _ in range(T):
+#     name, cos  = input().split()
+#     wear.append(cos)
+  
+#   wearing = list(ct(wear).values())
+
+#   result = 1
+#   for i in wearing:
+#     result *= (i+1)
+
+#   print(result-1)
