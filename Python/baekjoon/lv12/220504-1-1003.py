@@ -1,3 +1,4 @@
+# https://bio-info.tistory.com/122
 import sys
 input=sys.stdin.readline
 
@@ -11,6 +12,4 @@ for _ in range(N):
         for i in range(n-1):
             cnt_0.append(cnt_1[-1])
             cnt_1.append(cnt_0[-2]+cnt_1[-1])
-    print(cnt_0)        
-    print(cnt_1)        
     print(cnt_0[n], cnt_1[n])
